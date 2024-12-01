@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- UNICONS -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <title>Om's Portfolio</title>
+</head>
+
+<body>
+    <div class="container">
+        <!-- --------------- HEADER --------------- -->
+        <nav id="header">
+            <div class="nav-logo">
+                <p class="nav-name">Om Gurav</p>
+                <span>.</span>
+            </div>
+            <div class="nav-menu" id="myNavMenu">
+                <ul class="nav_menu_list">
+                    <li class="nav_list">
+                        <a href="#home" class="nav-link active-link">Home</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#about" class="nav-link">About</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#projects" class="nav-link">Projects</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#contact" class="nav-link">Contact</a>
+                        <div class="circle"></div>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav-button">
+                <button class="btn"><a class="links" href="E:\om gurav porfolio main\Om Portfolio\OM gurav Resume.pdf" download="E:\om gurav porfolio main\Om Portfolio\OM gurav Resume.pdf">Download CV</a><i class="uil uil-file-alt"></i></button>
+            </div>
+            <div class="nav-menu-btn">
+                <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+            </div>
+        </nav>
+
+
+        <!-- -------------- MAIN ---------------- -->
+        <main class="wrapper">
+            <!-- -------------- FEATURED BOX ---------------- -->
+            <section class="featured-box" id="home">
+                <div class="featured-text">
+                    <div class="featured-name">
+                        <p>I'm a <span class="typedText"></span></p>
+                    </div>
+                    <div class="featured-text-info">
+                        <p> Computer Science Student specializing in front-end development. Skilled in creating responsive web interfaces
+                            using HTML, CSS, JavaScript, and front-end frameworks. Passionate about enhancing user
+                            experiences through innovative design.
+                        </p>
+                    </div>
+                    <div class="featured-text-btn">
+                        <button class="btn blue-btn">Hire Me</button>
+                        <button class="btn"><a class="links" href="E:\om gurav porfolio main\Om Portfolio\OM gurav Resume.pdf" download="E:\om gurav porfolio main\Om Portfolio\OM gurav Resume.pdf">Download CV</a><i class="uil uil-file-alt"></i></button>
+                    </div>
+                    <div class="social_icons">
+                        <div class="icon"><a class="links" href="https://www.instagram.com/allabout_om31" target="_blank"><i class="uil uil-instagram"></i></a></div>
+                        <div class="icon"><a class="links" href="https://www.linkedin.com/in/om-gurav-831165286/" target="_blank"><i class="uil uil-linkedin-alt"></i></a></div>
+                        <div class="icon"><a class="links" href="https://github.com/omgurav31" target="_blank"><i class="uil uil-github-alt"></i></a></div>
+                    </div>
+                </div>
+                <div class="featured-image">
+                    <div class="image" style="border-radius: 15px">
+                        <img src="D:\om gurav porfolio main\Om Portfolio\Assets\Om imj.jpeg" class="img-fluid rounded-circle" alt="Om Gurav">
+                    </div>
+                </div>
+            </section>
+            <!-- -------------- ABOUT BOX ---------------- -->
+            <section class="section" id="about">
+                <div class="top-header">
+                    <h1>About Me</h1>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="about-info">
+                            <h3 class="my-intro" >My introduction</h3>
+                            <p class="intro-content">Welcome to my digital space! I'm Om Gurav, 
+                                a computer science student with a passion for front-end development and a knack for crafting engaging digital experiences. With hands-on experience in content management systems like WordPress, I seamlessly blend design and functionality in my projects. I'm always eager to learn new skills and explore the latest technologies, continually pushing myself to create responsive and visually appealing web applications.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="skills-box">
+                            <div class="skills-header">
+                                <h3>Frontend</h3>
+                            </div>
+                            <div class="skills-list">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>SCSS</span>
+                                <span>Bootstrap</span>
+                                <span>Tailwind</span>
+                                <span>JavaScript</span>
+                                <span>React</span>
+                                <span>Typescript</span>
+                            </div>
+                        </div>
+                        <div class="skills-box">
+                            <div class="skills-header">
+                                <h3>Backend</h3>
+                            </div>
+                            <div class="skills-list">
+                                <span>React js</span>
+                                <span>Express js</span>
+                                <span>NodeJS</span>
+                            </div>
+                        </div>
+                        <div class="skills-box">
+                            <div class="skills-header">
+                                <h3>Database</h3>
+                            </div>
+                            <div class="skills-list">
+                                <span>MySQL</span>
+                                <span>MangoDB</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- -------------- PROJECT BOX ---------------- -->
+
+            <section class="section" id="projects">
+                <div class="top-header">
+                    <h1>Projects</h1>
+                </div>
+                <div class="project-container">
+                    <div class="project-box" onclick="linkToGitHub()">
+                       <i class="uil uil-briefcase-alt"></i>
+                        <h3 class="project-headers"><a class="links" href="https://github.com/omgurav31/Health-for-future" target="_blank">Health for future</a></h3>
+                        <h3 class="project-headers"><a class="links" href="https://github.com/omgurav31/Calculator.git" target="_blank">Calculator</a></h3>
+                        <h3 class="project-headers"><a class="links" href="https://github.com/omgurav31/Portfoilo-Project.git" target="_blank">Portfolio project</a></h3>
+
+                    </div>
+                </div>
+            </section>
+
+            <!-- -------------- CONTACT BOX ---------------- -->
+
+            <section class="section" id="contact">
+                <div class="top-header">
+                    <h1>Get in touch</h1>
+                    <span>Do you have a project in mind, contact me here</span>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="contact-info">
+                            <h2>Find Me <i class="uil uil-corner-right-down"></i></h2>
+                            <p><i class="uil uil-envelope"></i>guravom964@gmail.com</p>
+                            <p><i class="uil uil-phone"></i>+91-8421663608</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+
+        <!-- --------------- FOOTER --------------- -->
+        <footer>
+            <div class="top-footer">
+                <p>Om Gurav</p>
+            </div>
+            <div class="middle-footer">
+                <ul class="footer-menu">
+                    <li class="footer_menu_list">
+                        <a href="#home">Home</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#projects">Projects</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-social-icons">
+                <div class="icon"><a class="links" href="https://www.instagram.com/allabout_om31" target="_blank"><i class="uil uil-instagram"></i></a></div>
+                <div class="icon"><a class="links" href="https://www.linkedin.com/in/om-gurav-831165286/" target="_blank"><i class="uil uil-linkedin-alt"></i></a></div>
+                <div class="icon"><a class="links" href="https://github.com/omgurav31" target="_blank"><i class="uil uil-github-alt"></i></a></div>
+            </div>
+        </footer>
+        <div id="copy" class="bottom-footer">
+            <p>&copy; 2024 Om Gurav. All rights reserved.</p>
+        </div>
+    </div>
+
+
+
+
+    <!-- ----- TYPING JS Link ----- -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!-- ----- SCROLL REVEAL JS Link----- -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- ----- MAIN JS ----- -->
+    <script src="script.js"></script>
+</body>
+
+</html>
